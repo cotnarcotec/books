@@ -8,6 +8,3 @@ urlpatterns = [
          views.show_book_detail),
 
 ]
-
-
-trtroi

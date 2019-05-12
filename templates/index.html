@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<div class="conteiner">
+    <div class="C">
+        <h1 class="b">Лучшие категории</h1>
+            {% for category in categries %}
+        <li>{{  category.name }}</li>
+        {% endfor %}
+    </div>
+    <div class="C">
+        <h1 class="b">Новинки из мира книг</h1>
+            {% for book in books %}
+                <li>{{ book.neme }}</li>
+        {% endfor %}
+
+</body>
+</html>
