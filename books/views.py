@@ -12,7 +12,7 @@ def show_books(request):
 
     return HttpResponse(result)
 
-def shhow_book_detail(request, book_id):
+def show_book_detail(request, book_id):
     book = Book.objects.get(id=book_id)
     result = f'{book.neme}<br>{book.price}'
     return HttpResponse(result)

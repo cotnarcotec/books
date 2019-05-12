@@ -3,7 +3,7 @@ from django.shortcuts import HttpResponse
 from categories.models import Category
 
 
-def show_categoris(request):
+def show_categories(request):
     categories = Category.obgects.all()
     result = ''
 

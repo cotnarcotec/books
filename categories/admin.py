@@ -1,4 +1,4 @@
-from categories.models import Cotegory
+from categories.models import Category
 from  django.contrib import admin
 
-admin.site.register(Cotegory)
+admin.site.register(Category)
